@@ -19,8 +19,9 @@
   <div class="col-6">
     <nav>
       <div class="nav nav-tabs user-select-none" id="nav-tab" role="tablist">
+        <h3>Choose Category/h3>
           <select class="form-select" id="categorySelect" aria-label="Select a category">
-            <option value="all" selected>dsfdsfdsf</option>
+            <option value="all" selected>Al Menu's</option>
               @foreach($categories as $category)
                   <option value="{{$category->id}}">{{$category->name}}</option>
               @endforeach
