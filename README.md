@@ -31,8 +31,8 @@ Installation
     Start the development server: php artisan serve
 
 Login
-    email:admin@mof.com
-    password: admin123
 
+     email:admin@mof.com
+    password: admin123
     email:user@mof.com
-   password: user123
+    password: user123
